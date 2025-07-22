@@ -4,21 +4,21 @@ A modern, feature-rich Hangman game built with Python and Tkinter.
 
 ## ✨ Features
 
-- 🗂️ **Multiple Categories:** Choose from Fruits, Animals, Countries, Movies, or enter a custom word.
-- 🎚️ **Difficulty Levels:** Easy, Medium, and Hard modes affect word length and number of chances.
+- 🗂️ **Multiple Categories:** Choose from **Fruits**, **Animals**, **Countries**, **Movies**, or enter a custom word.
+- 🎚️ **Difficulty Levels:** **Easy**, **Medium**, and **Hard** modes affect word length and number of chances.
 - 💡 **Hint System:** Use a hint to reveal a letter (with a penalty).
 - 🏆 **High Score Tracking:** Tracks your best win streak and saves it between sessions.
 - ✍️ **Custom Word Entry:** Play with your own word and hint (great for two players).
-- 🎨 **Theme Support:** Switch between Light and Dark themes instantly.
+- 🎨 **Theme Support:** Switch between **Light** and **Dark** themes instantly.
 - 🖼️ **Fixed Layout:** Consistent, non-resizable window for a classic game feel.
 - 🔊 **Sound Effects:** Optional correct/incorrect sounds (requires `pygame` and sound files).
 - 🖥️ **Modern UI:** Clean, attractive interface with color and font styling.
 
 ## 🛠️ Requirements
 
-- 🐍 Python 3.x
-- 🪟 Tkinter (usually included with Python)
-- (Optional) 🎵 `pygame` for sound effects
+- 🐍 **Python 3.x**
+- 🪟 **Tkinter** (usually included with Python)
+- (Optional) 🎵 **pygame** for sound effects
 
 ## 🚀 How to Run
 
@@ -26,6 +26,7 @@ A modern, feature-rich Hangman game built with Python and Tkinter.
 2. Place `main.py` in your working directory.
 3. (Optional) Add `correct.wav` and `incorrect.wav` sound files in the same directory for sound effects.
 4. Run the game:
+
    ```bash
    python3 main.py
    ```
@@ -33,19 +34,23 @@ A modern, feature-rich Hangman game built with Python and Tkinter.
 ## 🎲 How to Play
 
 1. 🗂️ **Select a Category:** Choose a word category or enter a custom word.
-2. 🎚️ **Choose Difficulty:** Pick Easy, Medium, or Hard.
-3. 🔤 **Guess Letters:** Type a letter and press Enter or click Guess.
-4. 💡 **Use a Hint:** Click the Hint button to reveal a letter (costs a chance).
-5. 🔄 **Restart:** Click Restart to play a new round.
-6. 🎨 **Switch Theme:** Click the Theme button to toggle between Light and Dark modes.
+2. 🎚️ **Choose Difficulty:** Pick **Easy**, **Medium**, or **Hard**.
+3. 🔤 **Guess Letters:** Type a letter and press **Enter** or click **Guess**.
+4. 💡 **Use a Hint:** Click the **Hint** button to reveal a letter (costs a chance).
+5. 🔄 **Restart:** Click **Restart** to play a new round.
+6. 🎨 **Switch Theme:** Click the **Theme** button to toggle between Light and Dark modes.
 7. 🏆 **High Score:** Try to beat your best win streak!
 
 ## 📝 Notes
 
-- 🖼️ The window is fixed at 1000x1000 pixels and cannot be resized.
+- 🖼️ The window is fixed at **1000x1000 pixels** and cannot be resized.
 - 🔁 The game prevents repeating the previous word until all words are used.
 - ✍️ If you use a custom word, the guesser will see only your hint.
 - 🔊 Sound effects require `pygame` and the appropriate `.wav` files.
+
+## 📸 Screenshots
+
+> _Add screenshots here if you want to show off the UI!_
 
 ## 📄 License
 
